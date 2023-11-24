@@ -1,0 +1,26 @@
+SENTENCIA SQL PARA BASE DE DATOS:
+
+CREATE DATABASE IF NOT EXISTS usuarios;
+
+USE usuarios;
+
+CREATE TABLE IF NOT EXISTS usuarios (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(45),
+    correo VARCHAR(45),
+    contrasena VARCHAR(45)
+);
+
+SENTENCIA SQL PARA INSERTS:
+
+INSERT INTO usuarios (nombre, correo, contrasena) VALUES
+  ('Master Chief', 'master.chief@example.com', 'pass1'),
+  ('Lara Croft', 'lara.croft@example.com', 'pass2'),
+  ('Kratos', 'kratos@example.com', 'pass3'),
+  ('Geralt of Rivia', 'geralt.rivia@example.com', 'pass4'),
+  ('Aloy', 'aloy@example.com', 'pass5'),
+  ('Ezio Auditore', 'ezio.auditore@example.com', 'pass6'),
+  ('Samus Aran', 'samus.aran@example.com', 'pass7'),
+  ('Nathan Drake', 'nathan.drake@example.com', 'pass8'),
+  ('Commander Shepard', 'commander.shepard@example.com', 'pass9'),
+  ('Link', 'link@example.com', 'pass10');

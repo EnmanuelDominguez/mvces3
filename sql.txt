@@ -21,6 +21,4 @@ INSERT INTO usuarios (nombre, correo, contrasena) VALUES
   ('Aloy', 'aloy@example.com', 'pass5'),
   ('Ezio Auditore', 'ezio.auditore@example.com', 'pass6'),
   ('Samus Aran', 'samus.aran@example.com', 'pass7'),
-  ('Nathan Drake', 'nathan.drake@example.com', 'pass8'),
-  ('Commander Shepard', 'commander.shepard@example.com', 'pass9'),
-  ('Link', 'link@example.com', 'pass10');
+  ('Nathan Drake', 'nathan.drake@example.com', 'pass8');
